@@ -1,0 +1,170 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  line-height: 1.5;
+  color: #333;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.header {
+  overflow: auto;
+  margin-bottom: 25px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.menu {
+  float: right;
+  padding-top: 15px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  float: left;
+  margin-left: 15px;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu a {
+  float: left;
+  padding: 10px 20px;
+  background-color: #f5b2a8;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background-color: #ff6e4a;
+  color: #fff;
+}
+
+.blocks {
+  width: 990px;
+  margin: 0 auto;
+}
+.blocks::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.block {
+  float: left;
+  width: 300px;
+  margin: 15px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.block:hover {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.block h3 {
+  color: #222;
+  font-size: 18px;
+}
+
+.block p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.green {
+  border-style: solid;
+  border-color: green;
+  border-width: 4px;
+}
+.green-big {
+  border-style: solid;
+  border-color: green greenyellow;
+  border-width: 10px;
+}
+
+.radius-qne {
+  border-radius: 15px;
+}
+
+.radius-two {
+  border-radius: 120px 40px 100px 20px / 100px 40px 80px 20px;
+}
+
+.radius-three {
+  border-radius: 200px 100px 100px 200px / 100px 200px 200px 100px;
+}
+
+.radius-four {
+  border-radius: 100px 0 100px 0;
+}
+
+.radius-five {
+  border-radius: 120px 50px 20px 100px / 100px 50px 50px 120px;
+}
+
+.radius-six {
+  border-radius: 50px 200px 80px 30px / 80px 150px 60px 40px;
+}
+
+.image-one {
+  border: 10px double;
+  border-image: url('../img/pattern2.png') 10 stretch;
+}
+
+.image-two {
+  border: 10px solid transparent;
+  border-image: url('../img/pattern2.png') 8 round;
+}
+
+.image-three {
+  border: 10px double;
+  border-image: url('../img/pattern2.png') 16 round;
+}
+
+.image-four {
+  border: 10px solid transparent;
+  border-image: url('../img/Untitled2.png') 16 stretch;
+}
+
+.image-five {
+  border: 10px dashed;
+  border-image: url('../img/Untitled2.png') 7 round;
+}
+
+.image-six {
+  border: 10px dashed;
+  border-image: url('../img/Untitled2.png') 8 stretch;
+}

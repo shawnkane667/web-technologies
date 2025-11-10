@@ -4,6 +4,7 @@
   line-height: 40px;
 }
 
+
 p {
   color: green;
   text-align: center;
@@ -14,7 +15,7 @@ div {
 }
 
 
-.red {
+.color-text {
   color: red;
 }
 

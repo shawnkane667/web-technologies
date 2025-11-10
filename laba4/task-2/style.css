@@ -3,9 +3,10 @@ body {
   font-size: 20px;
 }
 
-.center {
+.recipe {
   text-align: center;
 }
+
 
 .color {
   color: red;
@@ -27,7 +28,7 @@ body {
   background-color: green;
 }
 
-#tip {
+.tip {
   text-align: center;
   color: gray;
   font-style: italic;

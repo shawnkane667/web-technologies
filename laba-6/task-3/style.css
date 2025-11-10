@@ -1,0 +1,107 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  line-height: 1.5;
+  color: #333;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.header {
+  overflow: auto;
+  margin-bottom: 25px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.menu {
+  float: right;
+  padding-top: 15px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  float: left;
+  margin-left: 15px;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu a {
+  float: left;
+  padding: 10px 20px;
+  background-color: #f5b2a8;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background-color: #ff6e4a;
+  color: #fff;
+}
+
+.blocks {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.block {
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 25px 35px;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.block-one {
+  background-color: #600000;
+  border-radius: 60px;
+  width: 95%;
+  margin-bottom: 15px;
+}
+
+.block-two {
+  background-color: #a14c4c;
+  border-radius: 60px;
+  width: 95%;
+  margin-bottom: 25px;
+}
+
+.block-three {
+  background-color: #c74141;
+  border-radius: 60px;
+  width: 46%;
+  margin-right: 1.5%;
+  display: inline-block;
+  vertical-align: top;
+}
